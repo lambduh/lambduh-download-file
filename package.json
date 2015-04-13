@@ -1,0 +1,29 @@
+{
+  "name": "lambduh.download-file",
+  "version": "0.1.0",
+  "description": "download any file to the local disk",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lambduh/lambduh-download-file.git"
+  },
+  "keywords": [
+    "lambda",
+    "aws",
+    "download",
+    "file",
+    "stream"
+  ],
+  "author": "Russell Matney",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lambduh/lambduh-download-file/issues"
+  },
+  "homepage": "https://github.com/lambduh/lambduh-download-file",
+  "dependencies": {
+    "q": "^1.2.0"
+  }
+}
