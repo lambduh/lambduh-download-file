@@ -1,5 +1,5 @@
 {
-  "name": "lambduh.download-file",
+  "name": "lambduh-download-file",
   "version": "0.1.0",
   "description": "download any file to the local disk",
   "main": "index.js",
