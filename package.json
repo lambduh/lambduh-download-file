@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/lambduh/lambduh-download-file",
   "dependencies": {
-    "q": "^1.2.0"
+    "q": "^1.2.0",
+    "request": "^2.55.0"
   }
 }
