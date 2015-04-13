@@ -20,7 +20,7 @@ module.exports = function(event) {
     def.reject(err);
   });
 
-  req(url).pipe(file);
+  req(event.url).pipe(file);
 
   return def.promise;
 }
