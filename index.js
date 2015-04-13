@@ -2,7 +2,7 @@ var Q = require('q');
 var fs = require('fs');
 var req = require('request');
 
-module.exports = function(event, options) {
+module.exports = function(event) {
   var def = Q.defer();
 
   var file = fs.createWriteStream(event.filepath);
@@ -11,7 +11,7 @@ module.exports = function(event, options) {
       if (err) {
         def.reject(err);
       } else {
-        def.resolve();
+        def.resolve(event);
       }
     });
   })
